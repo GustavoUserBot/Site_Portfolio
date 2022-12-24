@@ -422,6 +422,12 @@
     background:linear-gradient(var(--shadow), rgba(255, 255, 255, 0.473) 1% 99% ) ;
     border-radius: 15px;
 }
+.projeto_1 h1{
+    user-select: none;
+}
+.projeto_2_3 h1{
+    user-select: none;
+}
 .texto_complemento_projetos{
     margin: 15px;
     text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.521);
