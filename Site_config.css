@@ -131,6 +131,7 @@
 .texto_conteudo_da_apresentacao h2{
     font-size: 2em;
     transition: .5s;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.205);
 }
 .texto_conteudo_da_apresentacao h1{
     font-size: 2.8em;
@@ -640,7 +641,7 @@
 
     }
 }
-@media(max-width:750px){
+@media(max-width:760px){
     .logo{
         height: 70px;
     }
@@ -768,22 +769,22 @@
 }
 @media(max-width:600px){
     .logo_e_informacoes{
-        padding: 10px;
+        padding: 0px;
         padding-top: 30px;
     }
     .logo{
-        height: 40px;
+        height: 50px;
     }
     .contatos_1_organizacao{
         height: 26px;
         margin: 5px;
     }
     .contatos_1_organizacao p{
-        font-size: .5em;
+        font-size: .7em;
     }
     
 }
-@media(max-width:430px){
+@media(max-width:460px){
     .barra_lateral{
         padding: 0px;
     }
@@ -799,7 +800,7 @@
         padding-top: 3px;
     }
     .logo{
-        height: 35px;
+        height: 40px;
     }
     .menu{
         top: 20px;
@@ -834,6 +835,19 @@
     .caixas_projetos{
         width: 90%;
     }
+    .habilidades_topicos{
+        width: 95%;
+        height: 260px;
+    }
+    .texto_habilidades_topicos p{
+        margin: 20px;
+    }
+    .links_contatos {
+        margin-top:0px ; 
+    }
+    .contatos_2_organizacao{
+        margin-top: 0px;
+    }
 }
 @media(max-width:393px){
     .habilidades_topicos{
@@ -859,19 +873,8 @@
         margin-top: 10px;
         margin: 0px;
     }
-    .contatos_contatos{
-        height: 160px;
-    }
-    .redes_sociais_contatos h2{
-        font-size: large;
-    }
-    .contatos_contatos h2{
-        font-size: large;
-    }
 }
-@media(max-width:325px){
-    
-}
+
 
 
 
