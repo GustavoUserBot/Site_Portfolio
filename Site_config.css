@@ -798,6 +798,9 @@
         font-size: .9em;
         padding-top: 3px;
     }
+    .contatos_2_organizacao{
+        font-size: .8em;
+    }
     .logo{
         height: 35px;
     }
@@ -834,8 +837,11 @@
     .caixas_projetos{
         width: 90%;
     }
+    .final p{
+        text-align: center;
+    }
 }
-@media(max-width:393px){
+@media(max-width:370px){
     .habilidades_topicos{
         width: 95%;
         height: 260px;
@@ -851,6 +857,9 @@
     }
     .contatos_contatos h2{
         margin-bottom: 0px ;
+    }
+    .contatos_2_organizacao p{
+        font-size: .8em;
     }
     .links_contatos a{
         margin-top: 10px;
